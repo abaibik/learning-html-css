@@ -3,17 +3,31 @@
     padding: 0;
 }
 
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    }
+
 body {
     font-family: sans-serif;
 }
 
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .text {
     font-size: 16px;
+    width: 425px;
     line-height: 26px;
     color: #1F3F68;
 }
 
 .heading {
+    width: 510px;
     font-size: 64px;
     color: #1F3F68;
 }
@@ -35,6 +49,22 @@ body {
     color: #1F3F68;
 }
 
+.benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.benefit {
+    width: 359px;
+}
+
+.contacts-information-and-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .form {
     border: 1px solid #356EAD;
     box-sizing: border-box;
@@ -54,12 +84,21 @@ body {
     text-transform: uppercase;
 }
 
-.block {
-    border: 1px solid #000;
-    width: 350px;
-    height: 250px;
-    margin-left: 50px;
-    margin-top: 20px;
-    padding: 16px;
-    box-sizing: border-box;
+.map-widget {
+    width: 100%;
+}
+
+.call-to-action {
+    width: 495px;
+}
+
+.call-to-action > .heading__h3 {
+    width: 340px;
+}
+
+.contacts {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
