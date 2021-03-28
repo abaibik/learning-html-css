@@ -294,6 +294,7 @@ hr {
 }
 
 @media (max-width: 1024px) {
+   
     .container {
         padding-left: 32px;
         padding-right: 32px;
@@ -302,7 +303,6 @@ hr {
     .about-info {
         background-position: right 280px;
     }
-}
 
     .benefits-list {
         flex-direction: column;
@@ -324,6 +324,7 @@ hr {
     .contacts__footer {
         flex-direction: column;
     }
+}
 
 @media (max-width: 667px) {
     .about-page {

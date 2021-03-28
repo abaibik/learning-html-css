@@ -356,35 +356,30 @@ hr {
   .about-info {
     background-position: right 280px;
   }
-}
-
-.benefits-list {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.benefit {
-  margin-bottom: 32px;
-}
-
-.heading__call-to-action {
-  width: 340px;
-}
-
-.call-to-action__button {
-  padding: 4px 31px;
-}
-
-.contacts__footer {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  .benefits-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .benefit {
+    margin-bottom: 32px;
+  }
+  .heading__call-to-action {
+    width: 340px;
+  }
+  .call-to-action__button {
+    padding: 4px 31px;
+  }
+  .contacts__footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 @media (max-width: 667px) {
